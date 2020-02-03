@@ -1,59 +1,62 @@
-body{
-    height: 100vh;
-    background: #222;
-    background: linear-gradient(#222,#222,#444);
-    background-repeat: no-repeat;
-}
+@media all {
+    body {
+        height: 100vh;
+        background: #222;
+        background: linear-gradient(#222, #222, #444);
+        background-repeat: no-repeat;
+    }
 
-.grid-container {
-    margin: 5% 0% 0% 30%;
-    width: 650px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto ;
-    /*background-color: #333333;*/
-    padding: 10px;
-    grid-gap: 10px;
-}
-.even {
-    background-color: rgb(219, 157, 115);
-    background-image: url('../Texture_Walnut.png');
-}
+    .grid-container {
+        margin: 5% 0% 0% 30%;
+        width: 650px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        /*background-color: #333333;*/
+        padding: 10px;
+        grid-gap: 10px;
+    }
 
-.odd {
-    background-color: rgb(255, 217, 174);
-    background-image: url('../Texture_LighterMaple.png');
-}
+    .even {
+        background-color: rgb(219, 157, 115);
+        background-image: url('../Texture_Walnut.png');
+    }
 
-.grid-item {
-    width: 60px;
-    height: 60px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 
-    0 3px 5px 0 rgba(0, 0, 0, 0.19);
-}
+    .odd {
+        background-color: rgb(255, 217, 174);
+        background-image: url('../Texture_LighterMaple.png');
+    }
 
-#knight {
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    background-image: url('../pngfuel.com.png');
-    background-repeat: no-repeat;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.062), 
-    0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    .grid-item {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062),
+            0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    }
 
-}
+    #knight {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-image: url('../pngfuel.com.png');
+        background-repeat: no-repeat;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.062),
+            0 10px 20px 0 rgba(0, 0, 0, 0.19);
 
-.possi {
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    background-image: url('../knightPossi.png');
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 
-    0 5px 15px 0 rgba(0, 0, 0, 0.19);
-}
+    }
 
-.possi:hover {
-    background-color: brown;
+    .possi {
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        background-image: url('../knightPossi.png');
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062),
+            0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .possi:hover {
+        background-color: brown;
+    }
 }
