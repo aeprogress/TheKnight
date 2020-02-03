@@ -17,12 +17,12 @@
     }
 
     .even {
-        background-color: rgb(219, 157, 115);
+        /*background-color: rgb(219, 157, 115);*/
         background-image: url('../Texture_Walnut.png');
     }
 
     .odd {
-        background-color: rgb(255, 217, 174);
+       /*background-color: rgb(255, 217, 174);*/
         background-image: url('../Texture_LighterMaple.png');
     }
 
