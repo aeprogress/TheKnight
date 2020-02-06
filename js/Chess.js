@@ -111,6 +111,7 @@
                  sec = 0;
                  min++;
              } else if (this.greenSpots == 64) {
+                $(".possi").remove();
                 clearInterval(id);
             } else {
                  sec++;
