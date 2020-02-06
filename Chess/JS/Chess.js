@@ -154,7 +154,7 @@
                             $("#" + offset).css("background-image",
                             "none");
                             $("#" + offset).css("background-image",
-                            "url('./guardian.png')");
+                            "url('../guardian.png')");
                             $("#" + offset).css("background-color",
                             "rgb(60,179,113)");
                             this.greenSpots++;
