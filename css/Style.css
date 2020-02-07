@@ -176,15 +176,15 @@
             margin: 0;
             margin-top: 0%;
             padding: 0;
-            padding-top: 0%;
-            margin-left: 27%;
+            padding-top: 5%;
+            margin-left: 15%;
             font-size: 20pt;
         }
 
         #steps{
             position: relative;
-            right: 3%;
-            bottom: 1vh;
+            right: 15%;
+            top: 3vh;
             margin: 0;
             /*margin-top: 0%;
             margin-right: 38%;
@@ -205,8 +205,9 @@
         }
 
         #start {
+            float: left;
             position: relative;
-            left: 50%;
+            left: 12%;
             top: 3vh;
             background-size: 30px 30px;
             margin: 0%;
@@ -218,9 +219,13 @@
         
         #replay {
             float: right;
+            right: 87%;
+            top: 3vh;
+            position: relative;
+            margin: 0;
             background-size: 30px 30px;
             margin: 0;
-            margin-right: 19%;
+           /* margin-right: 19%;*/
             margin-bottom: 0%;
             padding: 5%;
             
