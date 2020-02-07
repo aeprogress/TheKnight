@@ -140,7 +140,7 @@
                         //console.log(this.greenSpots);
                         }*/ 
                      $("#" + offset).append(markup);
-                     $("#steps").html( this.steps + " <img src='./images/horse.png'>");
+                     $("#steps").html( "<img src='./images/horse.png'> " + this.steps);
                      this.steps++;
                  }
                  for (let k = 0; k < this.numOfPosi; k++) {
