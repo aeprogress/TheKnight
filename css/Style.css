@@ -4,10 +4,8 @@
         padding: 0;
     }
     body {
-        height: 100vh;
         background: #222;
-        background: linear-gradient(#222, #222, #444);
-        background-repeat: no-repeat;
+       
     }
 
     #container{
