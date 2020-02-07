@@ -184,10 +184,10 @@
         }
         
         .grid-container {
-            width: 45%;
-           margin-left: 1%;
+            width: 50%;
+           margin-left: 5%;
             padding: 0%;
-            grid-gap: 20px;
+            grid-gap: 10px;
         }
 
         .even, .odd {
