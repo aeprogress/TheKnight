@@ -185,7 +185,8 @@
         
         .grid-container {
             width: 50%;
-            margin-left: 8%;
+            margin-left: 5%;
+            margin-top: 20%
             padding: 0%;
             padding-top: 10%
             grid-gap: 10px;
