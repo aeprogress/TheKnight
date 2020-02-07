@@ -167,7 +167,7 @@
            background-size: 40px 40px;
            margin: 0%;
            margin-right: 50%;
-           margin-top: 3%;
+           margin-top: 1%;
            padding: 5%;
         }
         
@@ -175,7 +175,7 @@
             float: right;
             background-size: 40px 40px;
             margin: 0;
-            margin-top: 3%;
+            margin-top: 1%;
             padding: 5%;
             
         }
@@ -183,6 +183,11 @@
         .grid-container {
             width: 100%;
             padding: 0%;
+        }
+
+        .even, .odd {
+            background-size: 40px 40px;
+            background-size: contain;
         }
         .grid-item{
             width: 40px;
