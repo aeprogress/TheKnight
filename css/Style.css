@@ -136,6 +136,7 @@
         #tool-bar {
             width: 100%;
             margin: 0;
+            margin-bottom: 5%;
         }
         .tool-bar-item {
             display: inline;
@@ -185,7 +186,7 @@
         
         .grid-container {
             width: 50%;
-            margin-left: 5%;
+            margin-left: 3%;
             margin-top: 20%
             padding: 0%;
             grid-gap: 15px;
