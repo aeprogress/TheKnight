@@ -176,14 +176,15 @@
             margin: 0;
             margin-top: 0%;
             padding: 0;
-            padding-top: 5%;
-            margin-left: 25%;
+            padding-top: 4%;
+            margin-left: 27%;
             font-size: 20pt;
         }
 
         #steps{
             position: relative;
             right: 0%;
+            left: 2%;
             top: 3vh;
             margin: 0;
             /*margin-top: 0%;
@@ -208,7 +209,7 @@
             float: left;
             position: relative;
             left: 12%;
-            top: 2vh;
+            top: 3vh;
             background-size: 30px 30px;
             margin: 0%;
             /*margin-right: 0%;
@@ -220,7 +221,7 @@
         #replay {
             float: right;
             right: 87%;
-            top: 2vh;
+            top: 3vh;
             position: relative;
             margin: 0;
             background-size: 30px 30px;
@@ -232,7 +233,9 @@
         }
         
         .grid-container {
+            position: relative;
             width: 50%;
+            top: 1vh;
             margin-right: 0;
             margin-left: 4%;
             margin-top: 20%;
