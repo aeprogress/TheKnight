@@ -185,15 +185,16 @@
         
         .grid-container {
             width: 50%;
-            margin-left: 10%;
-            margin-top: 50%;
+            margin-left: 8%;
             padding: 0%;
+            padding-top: 10%
             grid-gap: 10px;
         }
 
         .even, .odd {
             background-size: 30px 30px;
             background-size: contain;
+            background-image: none;
         }
         .grid-item{
             width: 30px;
