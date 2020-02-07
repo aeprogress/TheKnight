@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./css/Style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <script src="./js/jquery-3.4.1.js" type="text/javascript"></script>
     <script src="./js/Chess.js" type="text/javascript"></script>
     <script src="./js/Kight.js" type="text/javascript"></script>
     <script src="./js/App.js" type="text/javascript"></script>
-     <link rel="shortcut icon" type="image/x-icon" href="./images/knight (2).png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/knight (2).png"/>
     <title>The Knight Game</title>
 </head>
 
@@ -19,10 +20,12 @@
     <div id="header">The<img src="./images/knight (2).png" alt="knight image">Knight</div>
     <div id="container">
         <div id="tool-bar">
+            <div id="start-container">
+                <a href="#" class="replay"><div id="replay" class="tool-bar-item"></div></a>
+                <a href="#" class="replay"><div id="start" class="tool-bar-item"></div></a>
+            </div>
             <dive id="timer" class="tool-bar-item">00 : 00</dive>
             <div id="steps" class="tool-bar-item">0  <img src="./images/horse.png"></div>
-            <a href="#" class="replay"><div id="start" class="tool-bar-item"></div></a>
-            <a href="#" class="replay"><div id="replay" class="tool-bar-item"></div></a>
         </div>
         <!--<div id="topScore">Top scores:</div>-->
         <div class="grid-container"></div>
