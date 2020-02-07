@@ -130,7 +130,7 @@
     .possi:hover {
         background-color: brown;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
 
         #tool-bar {
             width: 100%;
