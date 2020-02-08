@@ -66,14 +66,12 @@
     }
 
     #start:hover {
-        border-color: rgb(0, 89, 255);
-        color: rgb(0, 89, 255);
         background-image: url('../images/next.png');
     }
 
     #replay{
         display: inline;
-        margin: 20% auto 70% 25%;
+        margin: 20% auto 0% 0%;
         padding: 25%;
         text-align: center; 
         font-size: 18pt;
@@ -83,8 +81,6 @@
     }
 
     #replay:hover {
-        border-color: rgb(0, 89, 255);
-        color: rgb(0, 89, 255);
     }
 
     .replay {
@@ -94,6 +90,9 @@
 
     #timer {
         display: block;
+        width: 100%;
+        margin: 80% 0% 50% 10%;
+
     }
 
     .grid-container {
