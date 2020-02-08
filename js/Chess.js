@@ -100,11 +100,14 @@
          let sec = 1;
          let id = setInterval(() => {   
              if(min < 10 && sec < 10) {
-                 $("#timer").html("0" + min + " : 0" + sec);
+                 $("#timer").html("<img src='./images/timer.png'> " 
+                 + "0" + min + " : 0" + sec);
                 } else if(min < 10){
-                    $("#timer").html("0" + min + " : " + sec);
+                    $("#timer").html("<img src='./images/timer.png'> " 
+                    + "0" + min + " : " + sec);
                 } else {
-                    $("#timer").html( min + " : " + sec);
+                    $("#timer").html("<img src='./images/timer.png'> " 
+                    + min + " : " + sec);
                 }
 
              if (sec == 60) {
