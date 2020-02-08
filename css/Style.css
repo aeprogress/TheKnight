@@ -245,7 +245,6 @@
         .even, .odd {
             background-size: 30px 30px;
             background-size: contain;
-            background-image: none;
         }
         .grid-item{
             width: 30px;
