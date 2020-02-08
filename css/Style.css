@@ -88,6 +88,11 @@
         color: white;
     }
 
+    .replay:focus:active {
+        outline: 0;
+        box-shadow: none;
+      }
+
     #timer {
         display: block;
         width: 100%;
