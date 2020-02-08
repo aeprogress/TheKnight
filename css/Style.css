@@ -108,13 +108,13 @@
 
     .even {
         background-color: rgb(133, 92, 64);
-        background-image: url('../images/Texture_Walnut.png');
+        background-image: url('../images/walnut.png');
         background-repeat: no-repeat;
     }
 
     .odd {
         background-color: rgb(255, 217, 174);
-        background-image: url('../images/Texture_LighterMaple.png');
+        background-image: url('../images/maple.png');
         background-repeat: no-repeat;
         
     }
