@@ -1,10 +1,9 @@
     @media screen and (max-width: 1080px) {
         #header {
-            left: 15%;
-            width: 65%;
+            left: 17%;
             padding: 0;
             margin: 0;
-            font-size: 20pt;
+            font-size: 24pt;
         }
 
         #header img {
@@ -23,7 +22,7 @@
             top: 2vh;
             grid-template-columns: auto;
             width: 380px; 
-            height: 10vh;
+            height: 0vh;
             padding: 0% 0% 0% 0%;
             border-radius: 20px;
             box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.342),
@@ -162,12 +161,11 @@
         
         .grid-container {
             position: relative;
-            width: 70%;
             top: -9vh;
             margin-right: 0;
             margin-left: 1%;
             margin-top: 0%;
-            grid-gap: 15px;
+            grid-gap: 6px;
         }
 
         .even, .odd {
@@ -176,8 +174,8 @@
         }
 
         .grid-item{
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 40px;
         }
 
         #knight {
