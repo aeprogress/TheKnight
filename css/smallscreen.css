@@ -1,56 +1,118 @@
     @media screen and (max-width: 1080px) {
         #header {
-            left: 17%;
+            height: 0;
+            left: 15%;
+            top: 72vh;
             width: 65%;
             padding: 0;
             margin: 0;
+            font-size: 20pt;
+        }
+
+        #header img {
+            width: 40px;
+            height: 40px;
         }
 
         #tool-bar {
             width: 100%;
             margin: 0;
-            margin-top: 5%;
-            margin-bottom: 1%;
-            border-top: solid 1px white;
+            
         }
+
+        #tool-bar-frame {
+            display: subgrid;
+            top: 2vh;
+            grid-template-columns: auto;
+            width: 380px; 
+            height: 10vh;
+            padding: 0% 0% 0% 0%;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.342),
+            0 1px 5px 0 rgba(0, 0, 0, 0.308);
+        }
+
         .tool-bar-item {
             display: inline;
             margin: 0%;
         }
+
+        #level {
+            display: none;
+            position: relative;
+            margin: 0% 0% 0% 0%;
+            right: 9em;
+            top: 5vh;
+            text-align: center;
+            font-size: 13pt;
+        }
+
         #timer {
+            position: absolute;
             float: left;
-            width: auto;
+            top: 4vh;
+            bottom: 0vh;
+            left: 3.3em;
             margin: 0;
             margin-top: 0%;
             padding: 0;
-            padding-top: 4%;
-            margin-left: 25%;
-            font-size: 20pt;
+            font-size: 15pt;
             vertical-align: middle;
         }
 
         #timer img {
-            width: 30px;
-            height: 30px;
+            width: 20px;
+            height: 20px;
+        }
+
+        #life-container {
+            padding: 0;
+            width: 100%;
+            margin: 0 0% 0% 0;
+            display: block;
+            
+        }
+    
+        #life-container img {
+            position: relative;
+            top: 1vh;
+            left: 6em;
+            right: 0em;
+            vertical-align: middle;
+            margin: 0% 0;
+            padding: 0;
+
+        }
+    
+        #life-container div {
+            display: inline;
+            vertical-align: middle;
+        }
+    
+        .life-elments {
+    
+            width: 40px;
+            height: 40px;
         }
 
         #steps{
             position: relative;
             right: 0%;
-            left: 7%;
-            top: 3vh;
+            left: 3.5em;
+            top: -6vh;
+        
             margin: 0;
             padding: 0;
-            font-size: 20pt;
+            font-size: 14pt;
         }
         #steps img {
-            width: 30px;
-            height: 30px;
+            width: 29px;
+            height: 29px;
         }
 
         #start-container {
             right: 0;
-            margin-top: 5%;
+            margin-top: 0%;
             margin-bottom: 0;
             margin-bottom: 0%;
         }
@@ -58,34 +120,56 @@
         #start {
             float: left;
             position: relative;
-            left: 15%;
+            left: 10%;
             top: 3vh;
+            z-index: 4;
             background-size: 30px 30px;
             margin: 0%;
             padding: 5%;
+            padding-bottom: 3%;
             
         }
         
         #replay {
             float: right;
-            right: 87%;
+            right: 90%;
             top: 3vh;
+            z-index: 4;
             position: relative;
             margin: 0;
             background-size: 30px 30px;
             margin: 0;
             margin-bottom: 0%;
             padding: 5%;
+            padding-top: 3%;
             
+        }
+
+        #coins {
+            position: relative;
+            left: .1em;
+            bottom: 8vh;
+            float: right;
+            margin: 0% 0% 0% 0%;
+            padding: 0;
+            vertical-align: middle;
+            font-size: 14pt;
+            color: gold;
+            text-shadow: 5px 5px 30px gold;
+        }
+        #coins img {
+            width: 45px;
+            height: 45px;
+            vertical-align: middle;
         }
         
         .grid-container {
             position: relative;
-            width: 50%;
-            top: 1vh;
+            width: 70%;
+            top: -9vh;
             margin-right: 0;
-            margin-left: 4%;
-            margin-top: 20%;
+            margin-left: 1%;
+            margin-top: 0%;
             grid-gap: 15px;
         }
 
