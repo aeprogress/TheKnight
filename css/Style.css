@@ -1,3 +1,4 @@
+
     *{
         margin: 0;
         padding: 0;
@@ -10,52 +11,80 @@
     #header {
         position: relative;
         width: 25%;
-        top: 3vh;
-        left: 25%;
+        /*top: 3vh;
+        left: 25%;*/
+        top: 1vh;
+        margin: 0 auto;
+        margin-left: 40%;
         color: white;
         font-size: 30pt;
         font-family: "Times New Roman", Times, serif;
+        text-shadow: 1px 1px 3px rgb(219, 219, 219);
 
     }
 
     #container{
         position: relative;
-        margin: 3% 0% 0% 0%;
+        height: 0vh;
+        margin: 0% 0% 0% 0%;
+        padding: 0;
         align-content: center;
-        /*border: solid 1px white;*/
         text-align: center;
         color: white;
         font-size: 25pt;
         font-family: Arial, Helvetica, sans-serif;
     }
-
-    #topScore {
+    #settings-bar {
+        position: relative;
+        top: -80vh;
+        right: 27.5em;
+        bottom: 100em;
+        margin: 0;
+        margin-right: 0;
         float: left;
-        margin:0% 0% 0% 0%;
-        padding: 1% 4% 4% 4%;
-        border: solid 1px white;
-        border-radius: 7px;
-        font-size: 25pt;
+        grid-template-columns: auto;
+        width: 250px;
+        height: 79vh;
+        padding: 0% 0%;
+        border-radius: 20px;
+        box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.342),
+        0 3px 5px 0 rgba(0, 0, 0, 0.308);
     }
+
     #tool-bar{
-        margin: 5% 20% 0 0;
+        margin: 0% 15% 0 0;
         float: right;
-        /*border: solid 1px white;*/
+    }
+
+    #tool-bar-frame {
+        display: subgrid;
+        top: 1vh;
+        grid-template-columns: auto;
+        width: 250px;
+        height: 79vh;
+        padding: 20% 0% 0% 0%;
+        border-radius: 20px;
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.342),
+        0 1px 5px 0 rgba(0, 0, 0, 0.308);
     }
 
     .tool-bar-item{
-        font-size: 30pt;
+        font-size: 28pt;
     }
 
     #start{
         display: inline;
-        margin: 0% 0% 0% 23%;
-        padding: 20%;
+        margin: 0% 0% 0% 0%;
+        padding: 15%;
+        padding-bottom: 0%;
         text-align: center; 
         font-size: 20pt;
         background-image: url('../images/play\ \(2\).png');
         background-size: contain;
         background-repeat: no-repeat;
+        border-left: solid 2px rgb(99, 99, 99);
+        border-radius: 3px;
+
     }
 
     #start:hover {
@@ -64,16 +93,20 @@
 
     #replay{
         display: inline;
-        margin: 20% auto 0% 10%;
-        padding: 20%;
+        margin: 0% 3% 0% 8%;
+        padding: 15%;
+        padding-bottom: 0%;
         text-align: center; 
         font-size: 18pt;
         background-image: url('../images/repeat.png');
         background-size: contain;
         background-repeat: no-repeat;
+        border-radius: 100px;
     }
 
     #replay:hover {
+        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.062),
+        0 3px 5px 0 rgba(0, 0, 0, 0.19);
     }
 
     .replay {
@@ -87,29 +120,102 @@
         box-shadow: none;
       }
 
+      #level {
+          margin: 15% 0% 10% 0%;
+          text-align: center;
+          font-size: 20pt;
+      }
+
     #timer {
         display: block;
-        width: 100%;
-        margin: 60% 1% 40% 10%;
+        float: left;
+        width: 250px;
+        padding: 3% 0%;
+        margin: 10% 0% 10% 0%;
+        font-size: 22pt;
+        background-color: rgb(42, 42, 47);
+        border-radius: 7px;
+        text-shadow: 1px 1px 4.5px rgb(201, 201, 201);
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.062),
+        0 3px 5px 0 rgba(0, 0, 0, 0.19);
 
+        /*background-image: radial-gradient(circle, 
+        rgb(60,179,113), rgb(93, 195, 139), rgb(76, 163, 115));
+        */
+        
     }
     #timer img {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #life-container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 10%;
+        
+    }
+
+    #life-container img {
+        float: left;
+        vertical-align: middle;
+        margin: 10% 0;
+    }
+
+    #life-container div {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    .life-elments {
+        width: 65px;
     }
 
     #steps {
-        margin-top: 0;
+        float: left;
+        width: 70%;
+        margin: 10% 0% 10% 10%; 
+        font-size: 23pt;
+        color: rgb(221, 221, 221);
+        text-shadow: 1px 1px 3px rgb(201, 201, 201);
+    }
+
+    #steps img {
+        width: 50px;
+        height: 50px;
+    }
+    #coins {
+        width: 100%;
+        overflow: hidden;
+        float: left;
+        margin: 0% 0% 0% 0%;
+        padding: 0;
+        vertical-align: middle;
+        font-size: 23pt;
+        overflow-x: auto;
+        color: gold;
+        text-shadow: 5px 5px 30px gold;
+    }
+    #coins img {
+        width: 100px;
+        height: 100px;
+        vertical-align: middle;
     }
 
     .grid-container {
-        margin: 0% 30% 0% auto;
+        margin: .5% 0% 0% 24%;
         width: 650px;
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto;
         /*background-color: #333333;*/
-        padding: 0px;
+        padding: 1% 1%;
+        padding-top: 1.3%;
         grid-gap: 15px;
+        background-color: rgb(42, 42, 47);
+        border-radius: 15px; 
+        box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.342),
+        0 3px 5px 0 rgba(0, 0, 0, 0.308);
     }
 
     .even {
@@ -128,12 +234,12 @@
     .grid-item {
         width: 60px;
         height: 60px;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
-        border-radius: 3px;
+        border-radius: 7px;
         text-align: center;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062),
-            0 3px 5px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.212),
+        0 10px 20px 0 rgba(0, 0, 0, 0.623);
     }
 
     #knight {
