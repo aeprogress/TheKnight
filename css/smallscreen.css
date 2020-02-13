@@ -1,6 +1,6 @@
-    @media screen and (max-width: 1080px) {
+    @media screen and (max-width: 780px) {
         #header {
-            top: 75vh;
+            top: 70vh;
             left: 17%;
             width: 100%;
             padding: 0;
@@ -48,10 +48,11 @@
 
         #timer {
             position: absolute;
+            width: 100%;
             float: left;
             top: -3vh;
             bottom: 0vh;
-            left: 1em;
+            left: 0em;
             margin: 0;
             margin-top: 0%;
             padding: 0;
@@ -147,7 +148,7 @@
         #coins {
             position: relative;
             left: 6em;
-            bottom: 9vh;
+            bottom: 8.5vh;
             float: right;
             margin: 0% 0% 0% 0%;
             padding: 0;
@@ -165,11 +166,10 @@
         .grid-container {
             position: relative;
             top: -9vh;
-            width: auto;
             margin-right: 0;
             margin-left: 1%;
             margin-top: 0%;
-            grid-gap: 10px;
+            grid-gap: 7px;
             background-color: none;
             box-shadow: none;
         }
@@ -180,8 +180,8 @@
         }
 
         .grid-item{
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
         }
 
         #knight {
