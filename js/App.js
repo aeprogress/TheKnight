@@ -4,11 +4,14 @@ $(document).ready(function start() {
 
     board.possibilities(knight.row, knight.col);
     board.draw(knight.row, knight.col);
+    board.addLife();
+    
     $("#start").click(function () {
-
+        $("#start").attr("id", "");
         $('.grid-item').click(function () {
+            
             $('.possi').click(function update() {
-
+                //if($("[title^='possi']")){
                 $("#knight").remove();
                 $(".possi").remove();
 
@@ -21,7 +24,6 @@ $(document).ready(function start() {
                 }
                 board.possibilities(knight.row, knight.col);
                 board.reset(knight.row, knight.col);
-
 
                 $("#knight").show();
                 $(".possi").show();
