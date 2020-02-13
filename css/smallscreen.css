@@ -1,5 +1,6 @@
     @media screen and (max-width: 1080px) {
         #header {
+            top: 75vh;
             left: 17%;
             width: 100%;
             padding: 0;
@@ -48,7 +49,7 @@
         #timer {
             position: absolute;
             float: left;
-            top: 4vh;
+            top: -3vh;
             bottom: 0vh;
             left: 1em;
             margin: 0;
@@ -73,8 +74,8 @@
     
         #life-container img {
             position: relative;
-            top: -3vh;
-            left: 1.5em;
+            top: 1.5vh;
+            left: 1em;
             right: 0em;
             vertical-align: middle;
             margin: 0% 0;
@@ -97,10 +98,11 @@
             position: relative;
             right: 0%;
             left: 6em;
-            top: -2vh;
+            top: -3vh;
             margin: 0;
             padding: 0;
             font-size: 14pt;
+            vertical-align: middle;
         }
         #steps img {
             width: 29px;
@@ -145,7 +147,7 @@
         #coins {
             position: relative;
             left: 6em;
-            bottom: 8vh;
+            bottom: 9vh;
             float: right;
             margin: 0% 0% 0% 0%;
             padding: 0;
