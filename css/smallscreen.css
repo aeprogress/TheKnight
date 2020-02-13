@@ -76,7 +76,7 @@
     
         #life-container img {
             position: relative;
-            top: 1.5vh;
+            top: 2vh;
             left: 1em;
             right: 0em;
             vertical-align: middle;
@@ -171,7 +171,7 @@
             margin-right: 0;
             margin-left: 1%;
             margin-top: 0%;
-            grid-gap: 13px;
+            grid-gap: 11px;
             background-color: none;
             box-shadow: none;
         }
